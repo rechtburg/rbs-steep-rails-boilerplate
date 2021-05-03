@@ -1,0 +1,8 @@
+target :test do
+  signature "."
+  check "."
+
+  typing_options :strict
+
+  library "tsort"
+end
